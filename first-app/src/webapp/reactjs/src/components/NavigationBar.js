@@ -5,10 +5,11 @@ import {Link} from "react-router-dom";
 class NavigationBar extends React.Component {
     render() {
         return (
-            <Navbar bg="dark" variant="dark">
+            <Navbar bg="dark" variant="dark" style={{marginBottom: '30px'}}>
                 <Link to={""} className="navbar-brand">
-                    <img style={{marginLeft: 15, padding: 10}} alt=""
-                         src="https://ltdfoto.ru/images/2023/02/22/Screenshot_38f3b2d8a03a4ba9b4.png" width="80"/>
+                    <img style={{marginLeft: 15, padding: 7}} alt=""
+                         src="https://cdn.iconscout.com/icon/premium/png-256-thumb/hedgehog-1409568-1192661.png"
+                         width="80"/>
                 </Link>
                 <Nav className="mr-auto">
                     <Link to={"welcome"} className="nav-link">HomePage</Link>
